@@ -9,6 +9,12 @@ function Input(props) {
           className="form-control"
           onChange={(e) => submitSearch(e.target.value)}
           placeholder='Search'
+          style={{
+              width:"200px",
+              height:"30px",
+              borderRadius:"6px",
+              border:"1px solid #3F3D56"
+          }}
         />
       </div>
   )
